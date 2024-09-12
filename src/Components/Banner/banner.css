@@ -1,0 +1,12 @@
+.custom-shape {
+  position: relative;
+  clip-path: polygon(0 0, 80% 0, 80% 20%, 100% 20%, 100% 100%, 0 100%);
+  border-radius: 100%; 
+}
+
+.text-gradient {
+  background: linear-gradient(139.3deg, #01F19B -1.5%, #FFFFFF 102.16%);
+  -webkit-background-clip: text; /* For Chrome, Safari, and Edge */
+  background-clip: text; /* For Firefox */
+  color: transparent; /* Makes the text itself transparent, showing the gradient */
+}
